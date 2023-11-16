@@ -1,0 +1,2 @@
+scrap_manual = https://storage.googleapis.com/simpel/blud/lip6.csv
+data_bagus = https://storage.googleapis.com/simpel/blud/lip6.tar.gz

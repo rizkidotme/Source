@@ -1,0 +1,2 @@
+[console_scripts]
+bludsearch = bludsearch.bludsearch:main
