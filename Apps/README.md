@@ -1,0 +1,1 @@
+triming dan finetune multi lingual model ke mono dengan custom corpus sccrapped. 
