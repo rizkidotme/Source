@@ -1,3 +1,9 @@
+# BludScalling Team:
+# - rizki@bahasa.tech modelling part  
+# - dzaki@bahasa.tech inference optimization 
+# - athifz@bahasa.tech data gathering and preprocessing
+# untuk memeriahkan Turnamen Sains Data Nasional 202 
+
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime

@@ -1,3 +1,8 @@
+# BludScalling Team:
+# - rizki@bahasa.tech modelling part  
+# - dzaki@bahasa.tech inference optimization 
+# - athifz@bahasa.tech data gathering and preprocessing
+
 # This code is for scraping text from liputan6.com/read/{id}
 # It uses beautiful soup to parse the html and csv to write the output
 # It uses multiprocessing to parallelize the requests and user agents to avoid detection
@@ -81,3 +86,18 @@ while latest_id > 0:
     latest_id -= batch_size
     elapse = time.time() - timer
     print(f"Scraped {batch_size} urls from {latest_id} to {latest_id - batch_size} in {elapse:.2f} seconds")
+
+
+"""
+datasets: 
+
+finetuning asymtric semantic similarity berisi 500 ribu pasang dokument berita liputan6, 200 jt kata hasil scrapping oleh BludScalling Team 
+url = https://storage.googleapis.com/simpel/blud/lip6.csv
+
+
+finetuneing lebih lanjut asymentric for passage retrieval berisi 200 ribu dokumen-ringkasan liputan6 oleh Fajri Koto et. al
+
+
+url = https://storage.googleapis.com/simpel/blud/lip6.tar.gz
+
+"""
